@@ -37,6 +37,8 @@ gem 'jquery-rails'
 gem 'rails-i18n'
 # the font-awesome font bundled as an asset for the rails asset pipeline
 gem 'font-awesome-rails'
+# This gem provides the full Themify Icon Set web fonts for use in your Rails 4+ application.
+gem 'themify-icons-rails', github: 'emilslv/themify-icons-rails'
 
 source 'https://rails-assets.org' do
   # The most popular front-end framework for developing responsive, mobile first projects on the web.

@@ -1,0 +1,268 @@
+<nav class="side-menu">
+  <ul>
+    <li class="hidden active">
+      <a class="page-scroll" href="#page-top"></a>
+    </li>
+    <li>
+      <a href="#home" class="page-scroll">
+        <span class="menu-title">Home</span>
+        <span class="dot"></span>
+      </a>
+    </li>
+    <li>
+      <a href="#speakers" class="page-scroll">
+        <span class="menu-title">Palestrantes</span>
+        <span class="dot"></span>
+      </a>
+    </li>
+    <li>
+      <a href="#tickets" class="page-scroll">
+        <span class="menu-title">Comprar</span>
+        <span class="dot"></span>
+      </a>
+    </li>
+    <li>
+      <a href="#schedule" class="page-scroll">
+        <span class="menu-title">Agenda</span>
+        <span class="dot"></span>
+      </a>
+    </li>
+  </ul>
+</nav>
+<div class="container-fluid">
+  <!-- Start: Header -->
+  <div class="row hero-header" id="home">
+    <div class="col-md-7">
+      <%= image_tag("logo.png", class:"logo") %>
+      <h1>O evento sobre as últimas tendências</h1>
+      <h3>de designer que faltava em BH!</h3>
+      <h4>Dia 26 às 19<sup>h</sup>
+        até 21:30<sup>h</sup>
+        julho, 2017</h4>
+      <a href="https://www.sympla.com.br/uxnow-summit-2017---bh__169042" class="btn btn-lg btn-red">Comprar
+        <span class="ti-arrow-right"></span>
+      </a>
+
+    </div>
+    <div class="col-md-5 hidden-xs">
+      <%= image_tag("rocket.png", class:"rocket bounce") %>
+    </div>
+  </div>
+  <!-- End: Header -->
+</div>
+<div class="container">
+  <!-- Start: Desc -->
+  <div class="row me-row content-ct">
+    <h2 class="row-title">Por quê esse evento é super legal?</h2>
+    <div class="col-md-4 feature">
+      <span class="ti-package"></span>
+      <h3>Conteudo</h3>
+      <p>Venha conferir as últimas tendências sobre design e sua influência nos negócios digitais.</p>
+    </div>
+    <div class="col-md-4 feature">
+      <span class="ti-microphone"></span>
+      <h3>Palestrantes Experientes</h3>
+      <p>O UXNow Summit conta com palestrantes experientes que trabalham nas startups mais badaladas do mercado.</p>
+    </div>
+    <div class="col-md-4 feature">
+      <span class="ti-home"></span>
+      <h3>Local</h3>
+      <p>FIEMGLab um dos lugares que mais respira inovação em BH e região metropolitana!</p>
+    </div>
+  </div>
+  <!-- End: Desc -->
+
+  <!-- Start: Speakers -->
+  <div class="row me-row content-ct speaker" id="speakers">
+    <h2 class="row-title">Palestrantes</h2>
+    <div class="col-md-4 col-sm-6 feature">
+      <%= image_tag("speaker-1.png", class:"speaker-img") %>
+      <h3>Jimmy Andrade</h3>
+      <p>Jimmy Andrade é Full-Stack Developer, Diversity Hero da Tracksale. Também é produtor musical, cantor/compositor e tradutor do blog do LANDR.</p>
+      <ul class="speaker-social">
+        <li>
+          <a href="https://www.linkedin.com/in/linkedjim/">
+            <span class="ti-linkedin"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-4 col-sm-6 feature">
+      <%= image_tag("avatar.png", class:"speaker-img") %>
+      <h3>A confirmar</h3>
+      <p></p>
+    </div>
+    <div class="col-md-4 col-sm-6 feature">
+      <%= image_tag("avatar.png", class:"speaker-img") %>
+      <h3>A confirmar</h3>
+      <p></p>
+    </div>
+  </div>
+  <!-- End: Speakers -->
+</div>
+
+<!-- Start: Tickets -->
+<div class="container-fluid tickets" id="tickets">
+  <div class="row me-row content-ct">
+    <h2 class="row-title">Ingressos</h2>
+    <div class="col-md-4 col-sm-6 col-md-offset-2">
+      <h3>Lote Promocional</h3>
+      <p class="price">R$20</p>
+      <p>Duração por tempo limitado.</p>
+      <a href="https://www.sympla.com.br/uxnow-summit-2017---bh__169042" class="btn btn-lg btn-red">Comprar</a>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <h3>1º Lote</h3>
+      <p class="price">R$30</p>
+      <p>Duração por tempo limitado.</p>
+      <a class="btn btn-lg btn-red" disabled="disabled">Comprar</a>
+    </div>
+  </div>
+</div>
+<!-- End: Tickets -->
+
+<!-- Start: Schedule -->
+<div class="container">
+  <div class="row me-row schedule" id="schedule">
+    <h2 class="row-title content-ct">Agenda</h2>
+    <div class="col-md-12">
+
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade in active" id="day-1">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="media">
+                <div class="media-left">
+                  <div class="media-icon">
+                    <i class="ti-credit-card"></i>
+                  </div>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">18:30</h4>
+                  <h5>Credenciamento</h5>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="media">
+                <div class="media-left">
+                  <a href="#">
+                    <%= image_tag("speaker-1.png", class:"media-object") %>
+                  </a>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">19:00</h4>
+                  <h5>UX e Design Thinking</h5>
+                  <p>Como o design thingkin ajuda na imersão e no entendimento de padrões essenciais para criar projetos excelentes. Além disso, como o UX (User Experiance) utiliza de elementos visuais, diagramação e arquitetura para reflitir o que o usuário espera
+                    numa solução.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="media">
+                <div class="media-left">
+                  <div class="media-icon">
+                    <i class="ti-panel"></i>
+                  </div>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">20:00</h4>
+                  <h5>Painel</h5>
+                  <p>O Papel do design na estratégia das empresas e na experiência do usuário.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="media">
+                <div class="media-left">
+                  <div class="media-icon">
+                    <i class="ti-link"></i>
+                  </div>
+                </div>
+                <div class="media-body">
+                  <h4 class="media-heading">21:00</h4>
+                  <h5>Happy Hour e Networking</h5>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End: Schedule -->
+
+<!-- Start: Footer -->
+<div class="container-fluid footer">
+  <div class="row contact">
+    <div class="col-md-6 col-md-offset-3 contact-form">
+      <h3 class="content-ct">
+        <span class="ti-email"></span>
+        Contato</h3>
+      <form action="mailto:email@renangarcia.me" class="form-horizontal" data-toggle="validator" role="form">
+        <div class="form-group">
+          <label for="name" class="col-sm-3 control-label">Nome<sup>*</sup>
+          </label>
+          <div class="col-sm-9">
+            <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+            <div class="help-block with-errors pull-right"></div>
+            <span class="form-control-feedback" aria-hidden="true"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email" class="col-sm-3 control-label">E-mail<sup>*</sup>
+          </label>
+          <div class="col-sm-9">
+            <input type="email" class="form-control" id="email" placeholder="voce@seuemail.com" required>
+            <div class="help-block with-errors pull-right"></div>
+            <span class="form-control-feedback" aria-hidden="true"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message" class="col-sm-3 control-label">Mensagem<sup>*</sup>
+          </label>
+          <div class="col-sm-9">
+            <textarea id="message" class="form-control" rows="3" required></textarea>
+            <div class="help-block with-errors pull-right"></div>
+            <span class="form-control-feedback" aria-hidden="true"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-3 col-sm-9">
+            <button type="submit" id="submit" name="submit" class="btn btn-yellow pull-right">Enviar
+              <span class="ti-arrow-right"></span>
+            </button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- <div class="col-md-4 col-md-offset-1 content-ct">
+          <h3><span class="ti-twitter"></span> Twitter Feed</h3>
+          <p>Lorem <a href="#">#Ipsum</a> is a dummy text used as a text filler in designs. This is just a dummy text. via <a href="#">@designerdada</a> </p>
+          <hr>
+          <p>Lorem Ipsum is a <a href="#">#dummy</a> text used as a text filler in designs. This is just a dummy text. via <a href="#">@designerdada</a> </p>
+          <hr>
+          <p>Lorem Ipsum is a <a href="#">#dummy</a> text used as a text filler in designs. This is just a dummy text. via <a href="#">@designerdada</a> </p>
+        </div> -->
+  </div>
+  <div class="row footer-credit">
+    <div class="col-md-6 col-sm-6">
+      <p>&copy; 2017,
+        <a href="http://www.uxnowsummit.com">UXNOWSUMMIT</a>
+        | Todos os direitos reservados.
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <!-- <ul class="footer-menu">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms &amp; Condition</a></li>
+          </ul> -->
+      </div>
+    </div>
+  </div>
+  <!-- End: Footer -->
