@@ -212,7 +212,8 @@
                 </div>
                 <div class="media-body">
                   <h4 class="media-heading">19:40</h4>
-                  <h5>Processos de criação </h5>
+                  <h5>Processos de criação
+                  </h5>
                   <p></p>
                 </div>
               </div>
@@ -260,6 +261,22 @@
       <h3 class="content-ct">
         <span class="ti-email"></span>
         Contato</h3>
+
+      <%= form_tag( { :action => :contact, }, { :method => :post, :id => 'contactform', class: 'form-horizontal', "data-toggle": 'validator', role: 'form'})  do %>
+      <p>
+        <%= label_tag 'name', 'Nome' %>
+        <%= text_field_tag(:name , nil, class: "input") %>
+      </p>
+      <p>
+        <%= label_tag 'email', 'E-mail' %>
+        <%= text_field_tag(:email , nil, class: "input") %>
+      </p>
+      <p>
+        <%= label_tag 'message', 'Mensagem' %>
+        <%= text_area_tag(:text, nil, cols: 88, rows: 6, class: "textarea" ) %>
+      </p>
+      <%= submit_tag "Enviar", class: "submit" %>
+      <% end %>
       <form action="mailto:email@renangarcia.me" class="form-horizontal" data-toggle="validator" role="form">
         <div class="form-group">
           <label for="name" class="col-sm-3 control-label">Nome<sup>*</sup>
