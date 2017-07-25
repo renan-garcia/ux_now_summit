@@ -372,3 +372,12 @@ right: 0;
 top: 100px;
 z-index:999999;
 }
+
+.sponsors{
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
+.sponsors div{
+	padding: 20px;
+}
